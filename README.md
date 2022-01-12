@@ -2,7 +2,7 @@
 
 ## Windows
 
-### Compile Code
+### Compile Codes
 * ./mvnw.cmd clean compile -e
 
 ### Test Code
