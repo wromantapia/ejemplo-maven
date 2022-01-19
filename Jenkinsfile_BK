@@ -10,32 +10,28 @@ pipeline {
         stage("paso 1"){
             steps {
                 script {
-                sh "echo 'Compile'"
-                sh "./mvnw clean compile -e"
+                sh "echo 'Hello, World Usach *DevOps* 2021!'"
                 }
             }
         }
         stage("paso 2"){
             steps {
                 script {
-                sh "echo 'Test'"
-                sh "./mvnw clean test -e"
+                sh "echo 'Compile Code!'"
                 }
             }
         }
         stage("paso 3"){
             steps {
                 script {
-                sh "echo 'Build'"
-                sh "./mvnw clean package -e"
+                sh "echo 'Test Code!'"
                 }
             }
         }
         stage("paso 4"){
             steps {
                 script {
-                sh "echo 'Correr'"
-                sh "nohup bash mvnw spring-boot:run &"
+                sh "echo 'Build .Jar!'"
                 }
             }
         }
