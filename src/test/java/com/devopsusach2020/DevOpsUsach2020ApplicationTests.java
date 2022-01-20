@@ -9,7 +9,7 @@ class DevOpsUsach2020ApplicationTests {
 	@Test
 	void contextLoads() {
 		String correcto = "hola";
-		Assertions.assertThat(correcto).idEqualTo("Hola");
+		Assertions.assertThat(correcto).idEqualTo("hola");
 	}
 
 }
